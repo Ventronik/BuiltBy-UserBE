@@ -1,0 +1,24 @@
+{
+  "name": "builtby-userbe",
+  "version": "1.0.0",
+  "description": "Server for hosting the user, business, and project database to BuiltBy.xyz",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt-as-promised": "^1.1.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.15.2",
+    "morgan": "^1.9.1",
+    "pg": "^7.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
