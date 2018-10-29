@@ -14,6 +14,12 @@ app.use(cors())
 app.use(morgan('dev'))
 app.use(bodyParser.json())
 
+app.get('/ping',  (req, res) => {
+  const message = 'pong!'
+  console.log(`ON THE SERVER: ${message}`)
+  res.send(`RESPONDING TO THE CLIENT: ${message}`)
+})
+
 //////////////////////////////////////////////////////////////////////////////
 // Routes
 //////////////////////////////////////////////////////////////////////////////
