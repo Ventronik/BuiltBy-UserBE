@@ -25,7 +25,7 @@ app.get('/ping',  (req, res) => {
 //////////////////////////////////////////////////////////////////////////////
 
 // app.use('/auth', require('./routes/auth'))
-// app.use('/users', require('./routes/users'))
+app.use('/users', require('./routes/users'))
 // app.use('/blog_posts', require('./routes/blog_posts'))
 // app.use('/labels', require('./routes/labels'))
 
